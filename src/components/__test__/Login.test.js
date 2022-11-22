@@ -3,8 +3,6 @@ import { fireEvent, render, screen } from "@testing-library/react";
 import "@testing-library/jest-dom";
 import userEvent from "@testing-library/user-event";
 
-const onSubmit = jest.fn();
-
 describe("Test the Login Component", () => {
   test("render the login form submit button on the screen", async () => {
     render(<Login />);
